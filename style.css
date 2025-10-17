@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.nav-links{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: radius bottom 10px; 
+    
+} .nav-links .tag{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius:10px ;
+    font-weight: bold;
+    transition: 0.3s;
+} .nav-links .tag:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 03px 03px 05px white;
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+p{
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 70px;
+    color: brown;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+@keyframes typing{
+    from {width: 0;}
+    to {width: 100%;}
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#intro{
+    width: 500px;
+ font-size: larger;
+    height: 30px;
+    margin-bottom: 20px;
+}
+i{
+    padding-top: 3px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: brown;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 30px;
+    left: 30px;
+}
+i:hover{
+    height: 45px;
+    width: 45px;
+    background-color: brown;
+    border-radius: 50%;
+    animation: move 0.5s linear;
+}
+@keyframes move{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(10px);}
+    100%{transform: translateY(0px);}
+}
+
+.cv{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    font-size: larger;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+.cv:hover{
+    animation: move 1s reverse ;
+}
+@keyframes movecv{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-10px);}
+    100%{transform: translateY(100px);}
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 160%;
+}
+.imd{
+    height: 250px;
+    width: 250px;
+    background-image: url(hammad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    border: 10px solid brown;
+    left: 165%;
+}
